@@ -10,7 +10,7 @@ import { PastTrainingComponent } from "./training/past-training/past-training.co
 
 import { AppComponent } from "./app.component";
 import { MaterialModule } from "./material.module";
-import { AppRoutingModule } from "./app-routing.mobule";
+import { AppRoutingModule } from "./app-routing.module";
 
 @NgModule({
     declarations: [
@@ -20,7 +20,14 @@ import { AppRoutingModule } from "./app-routing.mobule";
         BrowserModule,
         BrowserAnimationsModule,
         MaterialModule,
-        AppRoutingModule
+        AppRoutingModule,
+        AppComponent,
+        SignupComponent,
+        LoginComponent,
+        TrainingComponent,
+        CurrentTrainingComponent,
+        NewTrainingComponent,
+        PastTrainingComponent
     ],
     providers: [],
     bootstrap: []
