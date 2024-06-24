@@ -14,7 +14,7 @@ import { AppRoutingModule } from "./app-routing.mobule";
 
 @NgModule({
     declarations: [
-    
+  
     ],
     imports: [
         BrowserModule,
