@@ -27,7 +27,8 @@ import { AppRoutingModule } from "./app-routing.module";
         TrainingComponent,
         CurrentTrainingComponent,
         NewTrainingComponent,
-        PastTrainingComponent
+        PastTrainingComponent,
+        
     ],
     providers: [],
     bootstrap: []
